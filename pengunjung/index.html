@@ -57,6 +57,11 @@
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-black" type="submit"><i class="bi bi-search"></i></button>
         </form>
+        <div class="navbar-nav">
+          <div class="nav-item text-nowrap">
+            <a class="nav-link px-3" href="../../sign-in/index.html">Sign in</a>
+          </div>
+        </div>
       </div>
     </div>
   </nav>
@@ -249,7 +254,7 @@
 
         <!-- Produk section -->
         <hr>
-        <section class="Products">
+        <section class="Produk">
           <div class="d-flex" style="margin-top: 100px;">
             <h3 class="title" id="produk"> <span> Produk </span></h3>
             <a href="produk.html" class="ms-auto" style="color: darkblue;">View All</a>
@@ -294,7 +299,7 @@
                           <i class="bi bi-star-fill" style="color: yellow;"></i>
                           <i class="bi bi-star-fill" style="color: yellow;"></i>
                         </div>
-                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#beliModal">
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#beliModal2">
                           Shop Now
                         </button>
                       </div>
@@ -316,7 +321,7 @@
                           <i class="bi bi-star-fill" style="color: yellow;"></i>
                           <i class="bi bi-star-fill" style="color: yellow;"></i>
                         </div>
-                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#beliModal">
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#beliModal3">
                           Shop Now
                         </button>
                       </div>
@@ -338,7 +343,7 @@
                           <i class="bi bi-star-fill" style="color: yellow;"></i>
                           <i class="bi bi-star-fill" style="color: yellow;"></i>
                         </div>
-                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#beliModal">
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#beliModal4">
                           Shop Now
                         </button>
                       </div>
@@ -348,6 +353,165 @@
               </div>
         </section>
         <!-- Product end -->
+
+
+        <!-- Modal Beli Sekarang 1 -->
+        <div class="modal fade" id="beliModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Form Pembelian</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Nama Kue</label>
+                    <input type="text" class="form-control" id="nama kue" value="Resh mellow cake" readonly>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Harga</label>
+                    <input type="harga" class="form-control" id="harga" value="Rp. 40.000" readonly>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Jumlah</label>
+                    <input type="number" min="0" class="form-control" id="kondisi dan kualitas"
+                      aria-describedby="kondisi dan kualitas">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Total Harga</label>
+                    <input type="penyedia informasi" class="form-control" id="penyedia informasi"
+                      aria-describedby="penyedia informasi">
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                <button type="button" class="btn btn-primary">Pesan</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal Beli Sekarang 1 End -->
+
+        <!-- Modal Beli Sekarang 2 -->
+        <div class="modal fade" id="beliModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel2">Form Pembelian</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail" class="form-label">Nama Kue</label>
+                    <input type="text" class="form-control" id="nama kue" value="Green Spar Cake" readonly>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword" class="form-label">Harga</label>
+                    <input type="harga" class="form-control" id="harga" value="Rp. 50.000" readonly>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail" class="form-label">Jumlah</label>
+                    <input type="number" min="0" class="form-control" id="kondisi dan kualitas"
+                      aria-describedby="kondisi dan kualitas">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail" class="form-label">Total Harga</label>
+                    <input type="penyedia informasi" class="form-control" id="penyedia informasi"
+                      aria-describedby="penyedia informasi">
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                <button type="button" class="btn btn-primary">Pesan</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal Beli Sekarang 2 End -->
+
+        <!-- Modal Beli Sekarang 3 -->
+        <div class="modal fade" id="beliModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Form Pembelian</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Nama Kue</label>
+                    <input type="text" class="form-control" id="jenis kue" aria-describedby="jenis kue"
+                      value="Bread Salad" readonly>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Harga</label>
+                    <input type="harga" class="form-control" id="harga" value="Rp. 50.000" readonly>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Jumlah</label>
+                    <input type="kondisi dan kualitas" class="form-control" id="kondisi dan kualitas"
+                      aria-describedby="kondisi dan kualitas">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Total Harga</label>
+                    <input type="penyedia informasi" class="form-control" id="penyedia informasi"
+                      aria-describedby="penyedia informasi">
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                <button type="button" class="btn btn-primary">Pesan</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal Beli Sekarang 3 End -->
+
+        <!-- Modal Beli Sekarang 4 -->
+        <div class="modal fade" id="beliModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Form Pembelian</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Nama Kue</label>
+                    <input type="jenis bunga" class="form-control" id="jenis bunga" aria-describedby="jenis bunga"
+                      value="Happier Donut Mood" readonly>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Harga</label>
+                    <input type="harga" class="form-control" id="harga" value="Rp. 50.000" readonly>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Jumlah</label>
+                    <input type="kondisi dan kualitas" class="form-control" id="kondisi dan kualitas"
+                      aria-describedby="kondisi dan kualitas">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Total Harga</label>
+                    <input type="penyedia informasi" class="form-control" id="penyedia informasi"
+                      aria-describedby="penyedia informasi">
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                <button type="button" class="btn btn-primary">Pesan</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal Beli Sekarang 4 End -->
 
         <!-- Contact -->
         <hr>
@@ -454,163 +618,6 @@
           </div>
       </div>
 
-      <!-- Modal Beli Sekarang 1 -->
-      <div class="modal fade" id="beliModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Form Pembelian</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Nama Kue</label>
-                  <input type="text" class="form-control" id="nama kue" value="Resh mellow cake" readonly>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Harga</label>
-                  <input type="harga" class="form-control" id="harga" value="Rp. 40.000" readonly>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Jumlah</label>
-                  <input type="number" min="0" class="form-control" id="kondisi dan kualitas"
-                    aria-describedby="kondisi dan kualitas">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Total Harga</label>
-                  <input type="penyedia informasi" class="form-control" id="penyedia informasi"
-                    aria-describedby="penyedia informasi">
-                </div>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-              <button type="button" class="btn btn-primary">Pesan</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Modal Beli Sekarang 1 End -->
-
-      <!-- Modal Beli Sekarang 2 -->
-      <div class="modal fade" id="beliModal" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel2">Form Pembelian</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail" class="form-label">Nama Kue</label>
-                  <input type="text" class="form-control" id="nama kue" value="Green Spar Cake" readonly>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword" class="form-label">Harga</label>
-                  <input type="harga" class="form-control" id="harga" value="Rp. 50.000" readonly>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail" class="form-label">Jumlah</label>
-                  <input type="number" min="0" class="form-control" id="kondisi dan kualitas"
-                    aria-describedby="kondisi dan kualitas">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail" class="form-label">Total Harga</label>
-                  <input type="penyedia informasi" class="form-control" id="penyedia informasi"
-                    aria-describedby="penyedia informasi">
-                </div>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-              <button type="button" class="btn btn-primary">Pesan</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Modal Beli Sekarang 2 End -->
-
-      <!-- Modal Beli Sekarang 3 -->
-      <div class="modal fade" id="beliModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Form Pembelian</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Nama Kue</label>
-                  <input type="text" class="form-control" id="jenis kue" aria-describedby="jenis kue"
-                    value="Bread Salad" readonly>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Harga</label>
-                  <input type="harga" class="form-control" id="harga" value="Rp. 50.000" readonly>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Jumlah</label>
-                  <input type="kondisi dan kualitas" class="form-control" id="kondisi dan kualitas"
-                    aria-describedby="kondisi dan kualitas">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Total Harga</label>
-                  <input type="penyedia informasi" class="form-control" id="penyedia informasi"
-                    aria-describedby="penyedia informasi">
-                </div>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-              <button type="button" class="btn btn-primary">Pesan</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Modal Beli Sekarang 3 End -->
-
-      <!-- Modal Beli Sekarang 4 -->
-      <div class="modal fade" id="beliModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Form Pembelian</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Nama Kue</label>
-                  <input type="jenis bunga" class="form-control" id="jenis bunga" aria-describedby="jenis bunga"
-                    value="Happier Donut Mood" readonly>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Harga</label>
-                  <input type="harga" class="form-control" id="harga" value="Rp. 50.000" readonly>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Jumlah</label>
-                  <input type="kondisi dan kualitas" class="form-control" id="kondisi dan kualitas"
-                    aria-describedby="kondisi dan kualitas">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Total Harga</label>
-                  <input type="penyedia informasi" class="form-control" id="penyedia informasi"
-                    aria-describedby="penyedia informasi">
-                </div>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-              <button type="button" class="btn btn-primary">Pesan</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Modal Beli Sekarang 4 End -->
 
 
       <!-- Footer awal -->
